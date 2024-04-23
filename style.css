@@ -1,0 +1,97 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-blue);
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.card {
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  max-width: 420px;
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+}
+.text {
+  padding: 40px;
+  background-color: white;
+  display: grid;
+  gap: 20px;
+}
+.text h1 {
+  font-weight: 900;
+}
+.text p {
+  color: rgba(66, 62, 62, 0.658);
+  font-size: 0.975rem;
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  padding: 0;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(215, 246, 247, 0.185);
+  padding: 20px;
+  border-radius: 1rem;
+  align-items: center;
+}
+.display {
+  display: block;
+}
+.image {
+  display: flex;
+}
+.price img {
+  margin-right: 14px;
+}
+.price h3 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.price p {
+  color: rgba(49, 46, 46, 0.39);
+  font-size: 0.925rem;
+}
+.price a {
+  color: blue;
+  font-weight: 900;
+  font-size: 0.875rem;
+}
+.button {
+  border: none;
+  padding: 18px;
+  border-radius: 1rem;
+  background-color: var(--Bright-blue);
+  color: white;
+  box-shadow: 8px 2px 2px 2px var(--Bright-blue);
+}
