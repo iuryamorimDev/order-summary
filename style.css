@@ -97,6 +97,15 @@ a {
   font-weight: 700;
   cursor: pointer;
 }
+.button:hover {
+  background-color: blue;
+}
+.cancel {
+  cursor: pointer;
+}
+.cancel:hover {
+  color: black;
+}
 
 @media (max-width: 450px) {
   .card {
