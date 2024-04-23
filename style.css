@@ -93,5 +93,14 @@ a {
   border-radius: 1rem;
   background-color: var(--Bright-blue);
   color: white;
-  box-shadow: 8px 2px 2px 2px var(--Bright-blue);
+  box-shadow: 2px 3px 6px 1px rgba(0, 0, 255, 0.534);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .card {
+    max-width: 390px;
+    margin: 0.7rem;
+  }
 }
