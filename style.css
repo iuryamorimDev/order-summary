@@ -104,7 +104,7 @@ a {
   cursor: pointer;
 }
 .cancel:hover {
-  color: black;
+  color: rgba(0, 0, 0, 0.815);
 }
 
 @media (max-width: 450px) {
